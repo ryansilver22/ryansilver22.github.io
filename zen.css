@@ -24,19 +24,19 @@ header {
   background: white;
   margin-top: 0px;
 }
-*/
+
 .sidebar {
   display: flexbox;
   width: 100px;
   margin: 20px;
   background: white;
 }
-/*
-.post-nav{
+*/
+.sidebar {
   float: left;
   background: lightgray;
 }
-
+/*
 .page-wrapper {
   display: grid;
   grid-template-columns: auto auto;
