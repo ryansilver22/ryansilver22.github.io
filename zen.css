@@ -28,13 +28,13 @@ header {
 .sidebar {
   display: flexbox;
   width: 100px;
-  margin: 20px;
+  margin: 70px;
   background: white;
 }
 
 
 .page-wrapper {
   display: grid;
-  grid-template-columns: auto auto;
+  /*grid-template-columns: auto auto;*/
 }
 
