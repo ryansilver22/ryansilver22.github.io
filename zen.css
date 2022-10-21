@@ -24,7 +24,7 @@ header {
 }
 
 .sidebar {
-  display: flexbox;
+  display: inline-block;
   width: 100px;
   margin: 70px;
   background: white;
