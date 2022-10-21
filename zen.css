@@ -1,15 +1,15 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: navy;
+  background: silver;
 }
 
 header {
   height: 200px;
   font-size: 200%;
   text-align: center;
-  color: silver;
-  background: linear-gradient( green, aqua);
+  color: green;
+  background: linear-gradient( navy, aqua);
   margin-bottom: 10px;
 }
 
