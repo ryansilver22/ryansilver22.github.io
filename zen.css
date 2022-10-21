@@ -10,19 +10,17 @@ header {
   text-align: center;
   color: silver;
   background: linear-gradient( navy, aqua);
+  margin-top: 10px;
   margin-bottom: 10px;
 }
+
+
 
 .post {
   width: 300px;
   margin: 25px;
   border: 1px solid gray;
   background: white;
-}
-
-#top {
-  background: white;
-  margin-top: 0px;
 }
 
 .sidebar {
@@ -33,8 +31,9 @@ header {
 }
 
 
+/*
 .page-wrapper {
   display: grid;
-  /*grid-template-columns: auto auto;*/
+  grid-template-columns: auto auto;
 }
-
+*/
