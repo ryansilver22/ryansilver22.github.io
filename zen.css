@@ -1,1 +1,48 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: lightgoldenrodyellow;
+}
 
+header {
+  height: 100px;
+  font-size: 200%;
+  text-align: center;
+  color: orange;
+  background: linear-gradient( purple, orange);
+  margin-bottom: 0px;
+}
+
+.post {
+  width: 300px;
+  margin: 25px;
+  border: 1px solid gray;
+  background: white;
+}
+
+.post img {
+  width: 80%;
+  
+}
+
+#top {
+  background: white;
+  margin-top: 0px;
+}
+
+.about {
+  display: flexbox;
+  width: 100px;
+  margin: 20px;
+  background: white;
+}
+
+.post-nav{
+  float: left;
+  background: lightgray;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+}
