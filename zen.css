@@ -37,6 +37,12 @@ ul {
   background: white;
 }
 
+.wrapper {
+  width: 100px;
+  margin: 10px;
+  background: lightblue;
+}
+
 
 /*
 .page-wrapper {
