@@ -2,6 +2,8 @@ html, body {
   height: 100%;
   width: 100%;
   background: white;
+  color: black;
+  font: 14px Georgia;
 }
 
 header {
@@ -25,8 +27,8 @@ header {
 
 .sidebar {
   display: inline-block;
-  width: 100px;
-  margin: 70px;
+  width: 1000px;
+  margin: 100px;
   background: white;
 }
 
