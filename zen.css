@@ -1,14 +1,14 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: lightgoldenrodyellow;
+  background: navy;
 }
 
 header {
   height: 200px;
   font-size: 200%;
   text-align: center;
-  color: anthrocite;
+  color: silver;
   background: linear-gradient( green, aqua);
   margin-bottom: 10px;
 }
