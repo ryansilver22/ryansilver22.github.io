@@ -12,7 +12,7 @@ header {
   background: linear-gradient( navy, aqua);
   margin-bottom: 10px;
 }
-
+/*
 .post {
   width: 300px;
   margin: 25px;
@@ -24,14 +24,14 @@ header {
   background: white;
   margin-top: 0px;
 }
-
+*/
 .sidebar {
   display: flexbox;
   width: 100px;
   margin: 20px;
   background: white;
 }
-
+/*
 .post-nav{
   float: left;
   background: lightgray;
@@ -41,3 +41,4 @@ header {
   display: grid;
   grid-template-columns: auto auto;
 }
+*/
