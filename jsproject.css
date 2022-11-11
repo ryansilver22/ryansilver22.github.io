@@ -1,8 +1,18 @@
 html, body {
-  font-family: "Georgia", sans-serif;
+  font-family: "georgia", serif;
   background: skyblue;
   height: 100%;
   width: 100%;
+  background-image: url("AdobeStock_363893998.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 4%;
 }
 
 * {
@@ -11,21 +21,24 @@ html, body {
   box-sizing: border-box;
 }
 
+
+
 .poll {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   width: 400px;
-  background: white;
+  background: rgba(255,255,255,0.95);
   border-radius: 10px;
   box-shadow: 0px 0px 20px 5px rgba(35,30,120,0.05);
+  
 }
 
 .poll .question {
   padding: 20px;
-  color: gray;
-  font-size: 10px;
+  color: black;
+  font-size: 18px;
   border-bottom: 1px solid white;
 }
 
@@ -65,9 +78,9 @@ html, body {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 50%;
-  height: 100%
-  background: tan;
-  z-index; -1;
+  width: 0px;
+  height: 100%;
+  background: rgba(255,0,0,0.40);
+/*  z-index; -1;*/
   transition: width 300ms ease-in-out;
 }
