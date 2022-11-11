@@ -41,7 +41,7 @@ let poll = {
       let percentage = 0;
       if(i == poll.selectedAnswer){
         percentage = Math.round(
-          (poll.answersWeight[i]+1) * 100 / (poll.pollCount+1)
+          (poll.answersWeight[i]+33) * 100 / (poll.pollCount+1)
         );
       } else {
         percentage = Math.round(
