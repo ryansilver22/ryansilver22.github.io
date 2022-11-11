@@ -25,13 +25,18 @@ h1 {
 
 .poll {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%,-50%);
   width: 400px;
+  height: 400px;
   background: rgba(255,255,255,0.95);
   border-radius: 10px;
   box-shadow: 0px 0px 20px 5px rgba(35,30,120,0.05);
+  background-image: url("MLB%20Logo.png");
+  background-size: 40%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
   
 }
 
