@@ -4,20 +4,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Philadelphia Eagles Fan Page</title>
+  <title>Eagles Fan Page</title>
   <link href="eaglesfanpage.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  Hello world
+
+  <header class="container">
+    <a href="index.html" class="logo"><img src="eagles-titans.png" width="100%" alt="Eagles"></a>    
+    <nav>
+      <a href="#Gameday">Gameday</a>
+      <a href="#Scores">Scores</a>
+      <a href="#Standings">Standings</a>
+      <a href="#Weather">Weather</a>
+    </nav>
+  </header>
+  
+  <h1>Philadelphia Eagles Fan Page</h1>
+  <img src="EaglesLogo.png" alt="logo">
+
+
+ <div class="gameday_section"> 
+  <h3 id="Gameday">Gameday</h3>
+    <h5>Your Vote</h5> 
+      
+    <div class="poll"> 
+      <div class="question"></div>
+      <div class="answers"></div>
+    </div>
+ </div><!--end gameday_section-->
+
+
+
+
+
+<div class="scores_section"> 
+  
+  <h3 id="Scores">Scores</h3>
+
+
+
+
+
+</div><!--end scores_section-->
+  
+<div class="standings_section"> 
+  <h3 id="Standings">Standings</h3>
+
+
+</div> <!--end standings_section-->
+
+<div class="weather_section">   
+  <h3 id="Weather">Weather</h3>
+    <div class="container">
+        <div class="center">
+          <button type="button" id="get">Gameday Weather</button>
+          <!--<label for="teams">Choose NHL Team: </label>
+          <input type="text" id="get" name="Teams">-->
+        </div>
+    </div>
+    <div id="response"> </div>
+  
+</div>  <!--end weather_section-->
+
+<footer>
+<p style="text-align: center;"><img src="eaglesfooter.jpeg" alt="logo" width="20%"></p>
+<p style="text-align: center;">Copyright © 2022 Ryan Silver. All rights reserved.</p>
+</footer>
   <script src="eaglesfanpage.js"></script>
 
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
 </body>
 
 </html>
