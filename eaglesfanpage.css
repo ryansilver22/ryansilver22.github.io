@@ -1,69 +1,140 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+
 }
 
 nav {
   height: 40px;
   background-color:#053C38;
   width: 100%;
-  padding: 10px;
   margin-right: 5%;
   margin-top: 0%;
-  
-
-}
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 4%;
+ }
 
 nav a {
   padding: 10px;
   color:#fff;
   text-decoration-line: none;
+  margin: 0px;
+  
+}
+
+h1 {
+  color: #fff;
+}
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #10604e;
+}
+
+p {
+  font-size: 1.3em;
 
 }
 
-.gameday_section {
 
+
+.gameday_section {
+color: #053C38;
 padding: 4%;
-background-color: #f2f4f4;
+background-color: #fff;
 margin: 4%;
 border-radius: 10px;
+}
+
+.gameday_section div {
+/*  padding: 4%;*/
 }
 
 
 .scores_section {
+color: #053C38;
 padding: 4%;
-background-color: #f2f4f4;
+background-color: #fff;
 margin: 4%;
 border-radius: 10px;
+    background-image: url("eagles.png"); 
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 50%;
+}
+
+.scores_section div {
+  padding-bottom:10px;
+  column-count: 3;
+  border-bottom: solid 1px #ccc;
+  width: 50%;
+
 }
 
 .standings_section {
+color: #053C38;
 padding: 4%;  
-background-color: #f2f4f4;
+background-color: #fff;
 margin: 4%;
 border-radius: 10px;
+      background-image: url("eagles-helmet.png"); 
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 30%;
+
+  
 }
 
 .weather_section {
+color: #053C38;
 padding: 4%; 
-background-color: #f2f4f4;
+background-color: #fff;
 margin: 4%;
 border-radius: 10px;
 
+}
+
+table {
+  border-bottom: solid 1px #ccc!important;
 }
 
 footer {
   background-color:#04423F;
-  height: 300px;
+  height: 200px;
   color:#fff;
   padding: 20px;
   
 }
 
+#game {
+  font-size: 16pt;
+}
+
+/*
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}*/
+
+
+
 .poll {
+  width: 100%;
+
   background: rgba(255,255,255,0.95);
   border-radius: 10px;
   box-shadow: 0px 0px 20px 5px rgba(35,30,120,0.05);
+  border: solid 1px #ccc;
+ 
+
 }
 
 .poll .question {
@@ -85,7 +156,7 @@ footer {
   line-height: 40px;
   color: black;
   margin-bottom: 10px;
-  border: 1px solid red;
+  border: 1px solid #04423F;
   border-radius: 10px;
   cursor: pointer;
   overflow: hidden;
@@ -103,4 +174,29 @@ footer {
   transform: translateY(-50%);
   color: black;
   font-size: 15px;
+}
+
+.poll .answers .answer span.percentage-bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(4,66,63,0.40);
+/*  z-index; -1;*/
+  transition: width 300ms ease-in-out;
+}
+
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
