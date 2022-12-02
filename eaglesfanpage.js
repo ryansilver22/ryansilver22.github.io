@@ -70,11 +70,11 @@ window.addEventListener("load", () => {
       lat = position.coords.latitude;
   
       // API ID
-      const api = "6d055e39ee237af35ca066f35474e9df";
+      const api = "f46fa8cf71188fa42cba240f5bcb1aa1";
   
       // API URL
       const base = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
-`lon=${lon}&appid=6d055e39ee237af35ca066f35474e9df`;
+`lon=${lon}&appid=f46fa8cf71188fa42cba240f5bcb1aa1`;
   
       // Calling the API
       fetch(base)
