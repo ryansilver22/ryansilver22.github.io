@@ -6,13 +6,7 @@ document.getElementById("get").onclick = async function()
   console.log("It is being read.");
   let response = await fetch(url)
   fetch(url)
-    //.then(response => {
-        // handle the response
-    //})
-    //.catch(error => {
-        // handle the error
-    //});
-
+    
   console.log(response); 
   document.getElementById('response').innerHTML = await response.text();
 };
@@ -50,8 +44,6 @@ var myChart = new Chart("myChart", {
   data: {},
   options: {}
 });
-
-
 
 // Declaring the variables
 let lon;
@@ -102,7 +94,6 @@ let poll = {
     pollCount:100,
     answersWeight:[50,30],
     selectedAnswer:-1
-
   };
   
   let pollDOM = {
