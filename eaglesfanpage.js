@@ -73,12 +73,13 @@ window.addEventListener("load", () => {
       const api = "6d055e39ee237af35ca066f35474e9df";
   
       // API URL
-      const base = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&` + `lon=${lon}&appid=6d055e39ee237af35ca066f35474e9df`;
+      const base = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
+`lon=${lon}&appid=6d055e39ee237af35ca066f35474e9df`;
   
       // Calling the API
       fetch(base)
         .then((response) => {
-         return response.json();
+          return response.json();
         })
         .then((data) => {
           console.log(data);
@@ -94,7 +95,7 @@ window.addEventListener("load", () => {
 
 
 let poll = {
-    question:"Who is your pick to win Sunday's Titans @ Eagles Game?",
+    question:"Who is your pick to win Sunday's Titans @ Eagles game?",
     answers:[
       "Eagles", "Titans"
     ],
@@ -143,7 +144,7 @@ let poll = {
         percentage = Math.round(
           (poll.answersWeight[i]) * 100 / (poll.pollCount+1)
         );
-      }
+      } 
       
       answers[i].querySelector(".percentage-bar").style.width = percentage + "%";
       answers[i].querySelector(".percentage-value").innerText = percentage + "%";
