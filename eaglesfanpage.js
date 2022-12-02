@@ -1,4 +1,4 @@
-/** const url = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/philadelphia?unitGroup=metric&key=RQSZMSAEV42SMND29GZV47C2W&contentType=json';
+const url = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/philadelphia?unitGroup=metric&key=RQSZMSAEV42SMND29GZV47C2W&contentType=json';
 
 document.getElementById("get").onclick = async function() 
   
@@ -15,7 +15,7 @@ document.getElementById("get").onclick = async function()
 
   console.log(response); 
   document.getElementById('response').innerHTML = await response.text();
-}; */
+};
 
 var xyValues = [
   {x:10, y:38},
