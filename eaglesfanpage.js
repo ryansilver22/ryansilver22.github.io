@@ -96,7 +96,7 @@ window.addEventListener("load", () => {
 let poll = {
     question:"Who is your pick to win Sunday's Titans @ Eagles Game?",
     answers:[
-      "Titans", "Eagles"
+      "Eagles", "Titans"
     ],
     pollCount:100,
     answersWeight:[50,30],
@@ -137,7 +137,7 @@ let poll = {
       let percentage = 0;
       if(i == poll.selectedAnswer){
         percentage = Math.round(
-          (poll.answersWeight[i]+50) * 100 / (poll.pollCount+1)
+          (poll.answersWeight[i]+21) * 100 / (poll.pollCount+1)
         );
       } else {
         percentage = Math.round(
